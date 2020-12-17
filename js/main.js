@@ -1,3 +1,35 @@
+import { Dog } from './components/Dog.js';
+import { Cat } from './components/Cat.js';
+import { Hamster } from './components/Hamster.js';
+
+// Dogs
+const reksas = new Dog('Reksas', 'brown');
+const lese = new Dog('Lese', 'white');
+
+console.log(reksas);
+console.log(lese);
+
+console.log(reksas.name);
+console.log(lese.color);
+
+reksas.voice();
+lese.voice();
+
+// Cats
+const raine = new Cat('Raine', 'golden');
+
+raine.voice();
+console.log(raine.color);
+
+// Hamsters
+const dina = new Hamster('Dina', 'grey black white');
+dina.voice();
+
+// su Pet reikalais
+raine.introduce();
+dina.introduce();
+
+
 /*
 objektas:
 - parametru rinkinys
